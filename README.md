@@ -79,3 +79,4 @@ Backend is a .NET 8 minimal API (SQLite + EF Core + JWT), frontend is Vue 3 + Vi
 
 - A pre-built pokemon.db is included in the repo so you don’t need to run EF migrations manually.
 - To reset the cache, delete PokemonApi/pokemon.db and restart the API.
+- App purposely does not store auth in localStorage to demo security feature.
