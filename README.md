@@ -47,7 +47,7 @@ Backend is a .NET 8 minimal API (SQLite + EF Core + JWT), frontend is Vue 3 + Vi
    
    ```bash
    git clone https://github.com/Dalej122/pokemon-information-app
-   cd PokemonApp
+   cd pokemon-information-app
 
 3. **Run the API in one terminal**
    ```bash
