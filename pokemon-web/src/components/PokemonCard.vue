@@ -1,8 +1,10 @@
 ﻿<template>
   <div class="max-w-xs mx-auto bg-white border-4 border-red-500 rounded-xl shadow-xl overflow-hidden mt-10">
     <div class="bg-red-500 text-white text-center py-2 font-bold text-lg pokemon-font">
-      {{ formatName(data.name) }}
-    </div>
+      <span class="capitalize">{{ formatName(data.name) }}</span>
+      <span class="text-sm">
+        #{{ String(data.id).padStart(3, '0') }}
+      </span>    </div>
 
     <div class="flex justify-center my-4">
       <img :src="data.spriteUrl" 

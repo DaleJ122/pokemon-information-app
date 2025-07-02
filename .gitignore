@@ -1,7 +1,6 @@
 # .NET
 bin/
 obj/
-*.db
 
 # Node/Vite
 node_modules/
