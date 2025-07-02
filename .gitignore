@@ -1,0 +1,11 @@
+# .NET
+bin/
+obj/
+*.db
+
+# Node/Vite
+node_modules/
+dist/
+npm-debug.log
+*.local
+.env.local
