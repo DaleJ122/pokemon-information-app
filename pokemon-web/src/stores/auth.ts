@@ -3,7 +3,7 @@ import api from '@/services/api'
 
 export const useAuthStore = defineStore('auth', {
     state: () => ({
-        token: localStorage.getItem('token') || ''
+        token: ''
     }),
     actions: {
         async login(user: string, pass: string) {
